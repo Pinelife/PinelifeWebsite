@@ -4,13 +4,12 @@ body {
 
 a:hover{
     text-decoration: none;  
-    color: #ef8fe6;
-    font-weight:bold;
+    color: #ff0000;
 }
 
 a {
     text-decoration: none;
-    font-weight:bold;  
+    color: #ff00ff !important;  
 }
 
 .topnav {
@@ -30,10 +29,16 @@ a {
 }
 
 li a {
+    color: #ff00ff;
+    text-decoration: none;
+}
+
+.topnav li a {
     display: block;
-    color: #000;
+    color: #000 !important;
     padding: 8px 16px;
     text-decoration: none;
+    font-weight:bold;
 }
 
 .topnav li a.active {
