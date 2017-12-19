@@ -19,6 +19,7 @@ CONTENT_TYPES = {
     'jpeg': 'image/jpeg',
     'png': 'image/png',
     'gif': 'image/gif',
+    'pdf': 'application/pdf',
     'ico': 'image/x-icon',
     'js': 'application/javascript',
     'json': 'application/json'
